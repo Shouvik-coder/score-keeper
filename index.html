@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First site</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-half is-offset-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="https://t4.ftcdn.net/jpg/04/25/74/29/360_F_425742955_QH2nJTiyl7N0YWzbCjQoH6fEGyNaiFrz.jpg"
+                                    alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="is-family-code has-text-weight-bold is-size-2 has-text-centered">Scorekeeper</p>
+                            <h1 class="is-family-primary is-size-1 has-text-weight-bold has-text-centered"><span
+                                    id="score1">0</span> to
+                                <span id="score2">0</span>
+                            </h1>
+                            <div class="buttons is-centered">
+                                <span style="margin-right: 10px;"><b>Select the winning score</b></span>
+                                <div class="select is-normal is-rounded">
+                                    <select style="background-color:lightgoldenrodyellow" name="dropdown" id="dropdown">
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="card-content ">
+                            <p class="has-text-weight-bold is-family-sans-serif has-text-centered" id="instruction">
+                                Click on the below player
+                                buttons to increment the score</p>
+                            <div style="margin: 1em" class="buttons are-normal is-centered">
+                                <button class="button is-rounded is-success" id="player1">Player 1</button>
+                                <button class="button is-rounded is-info" id="player2">Player 2</button>
+                                <button class="button is-rounded is-danger" id="reset">Reset </button>
+
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        </div>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
